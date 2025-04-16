@@ -1,0 +1,92 @@
+# Build directories
+build/
+bin/
+lib/
+out/
+
+# Extracted frames and outputs
+frames/
+output/
+
+# Video files (except for sample/test data)
+*.mp4
+*.mov
+*.avi
+*.MOV
+!sample_data/*.mp4
+!sample_data/*.mov
+!sample_data/*.MOV
+
+# COLMAP files
+*.db
+*.ini
+
+# 3D model files
+*.ply
+*.obj
+*.mtl
+*.fbx
+*.glb
+*.stl
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.xcodeproj/
+*.xcworkspace/
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db 

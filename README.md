@@ -23,8 +23,6 @@ brew install opencv
 # Install COLMAP
 brew install colmap
 
-# Or build COLMAP from source:
-# Follow instructions at https://colmap.github.io/install.html#mac
 ```
 
 ### Building the Project
@@ -66,8 +64,6 @@ make
 The final 3D model will be saved as a PLY file at `output/dense/fused.ply`. You can view this file with 3D model viewers like:
 
 - [MeshLab](https://www.meshlab.net/)
-- [CloudCompare](https://www.danielgm.net/cc/)
-- [Blender](https://www.blender.org/)
 
 ## How it Works
 
